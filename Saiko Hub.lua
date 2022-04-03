@@ -27,7 +27,7 @@ Duration = 1; -- how long the notification should in secounds
 wait(3)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Saiko Hub"; -- the title (ofc)
-Text = "Killing ppl with light+Quake"; -- what the text says (ofc)
+Text = ""; -- what the text says (ofc)
 --Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 5; -- how long the notification should in secounds
 })
