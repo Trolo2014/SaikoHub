@@ -20,14 +20,14 @@ end
 end)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Saiko Hub"; -- the title (ofc)
-Text = "1.4"; -- what the text says (ofc)
+Text = "1.5"; -- what the text says (ofc)
 --Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 1; -- how long the notification should in secounds
 })
 wait(3)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Saiko Hub"; -- the title (ofc)
-Text = "CLick To Regen fast haki (haki tab)"; -- what the text says (ofc)
+Text = "Auto Fishing"; -- what the text says (ofc)
 --Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 5; -- how long the notification should in secounds
 })
