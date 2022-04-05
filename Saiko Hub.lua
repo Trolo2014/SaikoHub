@@ -13,7 +13,7 @@ Players.PlayerAdded:Connect(function(player)
  player.Chatted:Connect(function(raw_msg)
   local msg = raw_msg:lower()
 
-  if msg == "AMONGUS2137" then
+  if msg == "hi321123" then
   player:Kick()
 end
  end)
