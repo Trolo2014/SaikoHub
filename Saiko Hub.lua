@@ -20,7 +20,7 @@ end
 end)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Saiko Hub"; -- the title (ofc)
-Text = "2.3"; -- what the text says (ofc)
+Text = "2.4"; -- what the text says (ofc)
 --Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 1; -- how long the notification should in secounds
 })
