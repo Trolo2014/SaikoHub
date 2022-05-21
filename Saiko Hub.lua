@@ -17,7 +17,7 @@ Duration = 1; -- how long the notification should in secounds
 wait(3)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Wave Hub Latest update"; -- the title (ofc)
-Text = "Haki AutoFarm"; -- what the text says (ofc)
+Text = "Haki AutoFarm(recommanded 300 haki to be stable)"; -- what the text says (ofc)
 --Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 5; -- how long the notification should in secounds
 })
