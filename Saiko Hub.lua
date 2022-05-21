@@ -10,7 +10,7 @@ end
 
 game.StarterGui:SetCore("SendNotification", {
 Title = "Wave Hub"; -- the title (ofc)
-Text = "version 4.7"; -- what the text says (ofc)
+Text = "version 4.9"; -- what the text says (ofc)
 --Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 1; -- how long the notification should in secounds
 })
