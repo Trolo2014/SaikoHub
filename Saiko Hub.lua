@@ -10,14 +10,14 @@ end
 
 game.StarterGui:SetCore("SendNotification", {
 Title = "Wave Hub"; -- the title (ofc)
-Text = "version 4.5"; -- what the text says (ofc)
+Text = "version 4.6"; -- what the text says (ofc)
 --Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 1; -- how long the notification should in secounds
 })
 wait(3)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Wave Hub Latest update"; -- the title (ofc)
-Text = "Haki AutoFarm(recommanded 300 haki to be stable)"; -- what the text says (ofc)
+Text = "Light Auto Kill IF new player joins"; -- what the text says (ofc)
 --Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 5; -- how long the notification should in secounds
 })
