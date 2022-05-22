@@ -1,4 +1,3 @@
-repeat wait() until game:IsLoaded()
 local BlackList = {419447048}
 
 local Players = game:GetService("Players")
@@ -11,11 +10,11 @@ end
 
 game.StarterGui:SetCore("SendNotification", {
 Title = "Wave Hub"; -- the title (ofc)
-Text = "version 5.2"; -- what the text says (ofc)
+Text = "version 5.3"; -- what the text says (ofc)
 --Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 1; -- how long the notification should in secounds
 })
-wait(7)
+wait(10)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Wave Hub Latest update"; -- the title (ofc)
 Text = "put _G.AutoHaki = true above key + in auto exe hub to autofarm haki"; -- what the text says (ofc)
